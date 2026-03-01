@@ -378,7 +378,7 @@ const Dashboard = () => {
                           🧾
                         </button>
 
-                        {/* {offer.status === 'pending' && ( */}
+                         {offer.status === 'pending' && (  
                           <>
                             <button
                               onClick={() => setConfirm({ id: offer._id, title: offer.offerTitle, type: 'approve' })}
@@ -393,7 +393,7 @@ const Dashboard = () => {
                               Refuse
                             </button>
                           </>
-                        {/* )} */}
+                         )} 
 
                         {offer.status !== 'pending' && (
                           <span className="text-white/20 text-xs italic">—</span>
