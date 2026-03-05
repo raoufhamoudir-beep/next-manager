@@ -315,13 +315,13 @@ const Users = () => {
                             )}
 
                             {/* زر الحذف — يظهر دائماً */}
-                            <button
+                            {/* <button
                             
                               title="حذف العميل"
                               className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-rose-500/10 hover:bg-rose-500/20 text-rose-400 text-xs font-medium transition-all border border-rose-500/20 whitespace-nowrap"
                             >
                               🗑️ حذف
-                            </button>
+                            </button> */}
                           </div>
                         </td>
                       </tr>
@@ -358,3 +358,4 @@ const Users = () => {
 
 
 export default Users
+
